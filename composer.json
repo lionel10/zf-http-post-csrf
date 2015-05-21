@@ -11,5 +11,8 @@
     "require": {
         "php": ">=5.5",
         "zendframework/zendframework": "~2.4"
+    },
+    "autoload": {
+      "psr-4": {"ZfHttpPostCsrf\\": "src/"}
     }
 }
